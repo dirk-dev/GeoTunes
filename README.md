@@ -17,7 +17,12 @@ GeoTunes was created with the idea of using APIs to create a playlist based on g
 * jQuery was used for accessing & changing elements in the DOM.
 
 
-[Deployed Site] (https://plsenh.github.io/Project-1/)
+Deployed Site: https://dirk-kiesewetter.github.io/GeoTunes/
+
+
+
+
+GeoTunes was a group project. Below is the ReadMe from the group repository:
 
 ### Team
 
