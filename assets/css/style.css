@@ -1,0 +1,192 @@
+html {
+    box-sizing: border-box;
+}
+
+
+body,
+#wrapper {
+    background-image: url("../images/seamless_tiled_background_textures-100.jpg");
+    padding: 0 0 50px 0;
+}
+
+#header {
+    background-image: url("../images/cool-grey-wallpapers-backgrounds-1.png");
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#header {
+    font-family: 'Patua One', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 85px;
+    text-align: center;
+    text-shadow: 2px 2px 6px #000000;
+}
+
+#playlist-button {
+    background: darkblue;
+    width: 200px;
+    height: 45px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    border-radius: 20px;
+}
+
+#country,
+#numresults {
+    width: 350px;
+}
+
+#lyrics-header {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+    color: darkblue;
+}
+
+#lyrics {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+}
+
+#wrapper {
+    width: 100%;
+    display: flex;
+}
+
+#left-column {
+    width: 50%;
+    margin: 0 20px 0 50px;
+}
+
+#right-column {
+    width: 50%;
+    margin: 0 50px 0 20px;
+}
+
+
+#user-input-container {
+    margin: 5px;
+}
+
+#media {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+#album-art {
+    border: 10px;
+    background-color: black;
+    max-width: 100%;
+    height: 500px;
+}
+
+
+
+/* code for Song List div */
+#song-list {
+    width: auto;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 18px;
+}
+
+.songListDiv {
+    line-height: 30px;
+}
+
+.responsive-card-table {
+    border-collapse: collapse;
+}
+
+.responsive-card-table.unstriped tbody {
+    background-color: transparent;
+}
+
+.responsive-card-table th {
+    background-color: rgb(16, 16, 61);
+    color: white;
+}
+
+.responsive-card-table tr,
+.responsive-card-table th,
+.responsive-card-table td {
+    border: 1px solid #0a0a0a;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    visibility: hidden;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+}
+
+
+@media screen and (max-width: 1290px) {
+    #song-list {
+        width: auto;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+
+    #wrapper {
+        display: block;
+    }
+
+    #left-column {
+        width: auto;
+        padding: 10px;
+        margin: auto;
+    }
+
+    #right-column {
+        width: 100%;
+        padding: 10px;
+        margin: auto;
+    }
+
+
+    #album-art {
+        display: none;
+    }
+
+    #header {
+        font-size: 70px;
+    }
+
+    .songListDiv {
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    #country-flag {
+        display: none;
+    }
+
+    footer {
+        visibility: visible;
+
+    }
+}
