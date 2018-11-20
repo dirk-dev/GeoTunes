@@ -19,7 +19,7 @@ GeoTunes was created with the idea of using APIs to create a playlist based on g
 
 Deployed Site: https://dirk-kiesewetter.github.io/GeoTunes/
 
-
+_____________________________________________________________________________________________
 
 
 GeoTunes was a group project. Below is the ReadMe from the group repository:
