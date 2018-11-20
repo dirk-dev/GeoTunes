@@ -1,7 +1,5 @@
 # GeoTunes
-
 _____________________________________________________________________________________________
-### Technical details:
 
 ### Problems:
 GeoTunes was created with the idea of using APIs to create a playlist based on geographic location. The user selects the country and the number of songs desired. Additionally, GeoTunes was to display lyrics for the songs of the playlist, as well as a video of the chosen song. User input validation was needed for the number of songs selected.  
