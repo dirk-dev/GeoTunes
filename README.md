@@ -12,7 +12,7 @@ GeoTunes was created with the idea of using APIs to create a playlist based on g
 
 ### Technical Details:
 * LastFM & Lyrics.ovh APIs were used for the song data (playlist, lyrics, and videos).
-* AJAX calls were used to access for the APIs.
+* AJAX calls were used to access the APIs.
 * The country flags are SVG graphics. SVGs are vector format, so the file size is small, and the images are infinitely scalable with no loss of image quality.
 * jQuery was used for accessing & changing elements in the DOM.
 
