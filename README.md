@@ -2,7 +2,7 @@
 
 ---
 
-[GeoTunes screenshot](./assets/images/geotunes_screenshot.png)
+![GeoTunes screenshot](./assets/images/geotunes_screenshot.png)
 
 ### Problems:
 
